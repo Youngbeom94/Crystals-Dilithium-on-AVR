@@ -1,0 +1,1 @@
+﻿C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm\solinas_reduction.s -v6 -OC:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm\iar_dilithium2_avrAsm\Debug\Obj\ -s+ -w+ -r -M<> -u_enhancedCore -D__HAS_ENHANCED_CORE__=1 -D__HAS_MUL__=1 -D__MEMORY_MODEL__=5 -D__HAS_ELPM__=1

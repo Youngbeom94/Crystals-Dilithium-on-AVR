@@ -1,0 +1,15 @@
+# ninja log v5
+37	230	7341766301270247	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/symmetric-shake.r90	e31697362e0751d2
+17	862	7341766307579063	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/packing.r90	afc6616974eefae7
+4	195	7341766300907132	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/main.r90	f55a42e92839decd
+26	209	7341766301070038	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/randombytes.r90	e38517aeb1b4e7fc
+15	317	7341766302126410	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/reduce.r90	411c716a1f4cab75
+33	406	7341766303036386	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/rounding.r90	4e530365ebc3506d
+11	441	7341766303391466	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/polyvec.r90	c305f31b458c54bf
+6	911	7341766308069061	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/fnt257.r90	9fa4bc946f51b20a
+23	1593	7341766314886722	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/poly.r90	2cea2442156e5831
+30	1697	7341766315920759	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/sign.r90	7446fef82967f0ee
+9	2347	7341766322415102	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/barrett_arithmetic.r90	c069a8044a139e36
+4	74	7341766428148255	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/ntt.r90	ae2a02a9058c8367
+1	22589	7341766653194642	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Obj/fips202.r90	fbfda588d840d854
+22591	22769	7341766655035740	C:/Users/daran/Documents/GitHub/dilithium_embedded/code_sign/crypto_sign/dilithium2/avrC(Barrett)/iar_dilithium2_avrC/Debug/Exe/iar_dilithium2_avrC.d90	95f665989b6376c3

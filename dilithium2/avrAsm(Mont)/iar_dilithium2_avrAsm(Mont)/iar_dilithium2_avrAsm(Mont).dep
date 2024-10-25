@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3658388029</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-6h-ec_mul-n.r90</file>
+            <file>$TOOLKIT_DIR$\src\template\lnk6h.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\iar_dilithium2_avrAsm(Mont).map</file>
+            <file>$PROJ_DIR$\..\symmetric.h</file>
+            <file>$PROJ_DIR$\..\fips202.h</file>
+            <file>$PROJ_DIR$\..\ntt.h</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\polyvec.h</file>
+            <file>$PROJ_DIR$\..\packing.c</file>
+            <file>$PROJ_DIR$\..\reduce.c</file>
+            <file>$PROJ_DIR$\..\sign.c</file>
+            <file>$PROJ_DIR$\..\api.h</file>
+            <file>$PROJ_DIR$\..\rounding.c</file>
+            <file>$PROJ_DIR$\..\ntt.c</file>
+            <file>$PROJ_DIR$\..\randombytes.c</file>
+            <file>$PROJ_DIR$\..\mont_mul.s</file>
+            <file>$PROJ_DIR$\..\poly.c</file>
+            <file>$PROJ_DIR$\..\rounding.h</file>
+            <file>$PROJ_DIR$\..\params.h</file>
+            <file>$PROJ_DIR$\..\packing.h</file>
+            <file>$PROJ_DIR$\..\poly.h</file>
+            <file>$PROJ_DIR$\..\randombytes.h</file>
+            <file>$PROJ_DIR$\..\reduce.h</file>
+            <file>$PROJ_DIR$\..\sign.h</file>
+            <file>$PROJ_DIR$\..\fips202.c</file>
+            <file>$PROJ_DIR$\..\symmetric-shake.c</file>
+            <file>$PROJ_DIR$\..\polyvec.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\ntt.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\packing.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\polyvec.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\poly.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\fips202.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\rounding.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\symmetric-shake.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\sign.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\reduce.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\randombytes.r90</file>
+            <file>$PROJ_DIR$\Debug\Obj\mont_mul.r90</file>
+            <file>$PROJ_DIR$\Debug\Exe\iar_dilithium2_avrAsm(Mont).d90</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 3 50 45 44 46 49 0 48 15 47 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\packing.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 23 22 11 24 48 50 45 44 46 49 47 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\reduce.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 22 26 48 50 45 44 46 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\sign.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 8 47 50 45 44 46 49 0 48 23 22 11 24 25 27 7 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\rounding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 22 21 48 50 45 44 46 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\ntt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 9 22 48 50 45 44 46 49 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\randombytes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 25 48 50 45 44 46 49 47 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\mont_mul.s</name>
+            <outputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\poly.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 9 22 48 50 45 44 46 49 24 26 21 7 8 47 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\fips202.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 47 50 45 44 46 49 0 48 1 2 8 15 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\symmetric-shake.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 8 47 50 45 44 46 49 0 48 22 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\polyvec.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 22 24 48 50 45 44 46 49 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\iar_dilithium2_avrAsm(Mont).d90</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 5 35 36 42 31 32 34 33 41 40 37 39 38 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 43 6</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

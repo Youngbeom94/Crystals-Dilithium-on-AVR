@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>842814360</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\fips202.h</file>
+            <file>$PROJ_DIR$\..\fnt769_ntt_asm.s</file>
+            <file>$PROJ_DIR$\..\NTT_params.h</file>
+            <file>$PROJ_DIR$\..\poly.h</file>
+            <file>$PROJ_DIR$\..\fnt769_reduce.s</file>
+            <file>$PROJ_DIR$\..\polyvec.c</file>
+            <file>$PROJ_DIR$\..\packing.c</file>
+            <file>$PROJ_DIR$\..\rounding.c</file>
+            <file>$PROJ_DIR$\..\symmetric-shake.c</file>
+            <file>$PROJ_DIR$\..\ntt_asm.s</file>
+            <file>$PROJ_DIR$\..\invntt_asm.s</file>
+            <file>$PROJ_DIR$\..\mul_pre_asm.s</file>
+            <file>$PROJ_DIR$\..\ntt.c</file>
+            <file>$PROJ_DIR$\..\symmetric.h</file>
+            <file>$PROJ_DIR$\..\zetas.c</file>
+            <file>$PROJ_DIR$\..\polyvec.h</file>
+            <file>$PROJ_DIR$\..\reduce.h</file>
+            <file>$PROJ_DIR$\..\randombytes.h</file>
+            <file>$PROJ_DIR$\..\rounding.h</file>
+            <file>$PROJ_DIR$\..\sign.c</file>
+            <file>$PROJ_DIR$\..\api.h</file>
+            <file>$PROJ_DIR$\..\fnt769_invntt_asm.s</file>
+            <file>$PROJ_DIR$\..\mul_otf_asm.s</file>
+            <file>$PROJ_DIR$\..\packing.h</file>
+            <file>$PROJ_DIR$\..\main.c</file>
+            <file>$PROJ_DIR$\..\params.h</file>
+            <file>$PROJ_DIR$\..\poly.c</file>
+            <file>$PROJ_DIR$\..\randombytes.c</file>
+            <file>$PROJ_DIR$\..\reduce.c</file>
+            <file>$PROJ_DIR$\..\ntt.h</file>
+            <file>$PROJ_DIR$\..\sign.h</file>
+            <file>$PROJ_DIR$\..\fips202.c</file>
+        </outputs>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

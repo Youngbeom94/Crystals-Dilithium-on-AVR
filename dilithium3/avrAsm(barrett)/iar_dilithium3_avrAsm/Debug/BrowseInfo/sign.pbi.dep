@@ -1,0 +1,17 @@
+C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\iar_dilithium3_avrAsm\Debug\BrowseInfo\sign.pbi: \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\sign.c \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\fips202.h \
+  D:\IAR\avr\inc\dlib\c\stddef.h D:\IAR\avr\inc\dlib\c\ycheck.h \
+  D:\IAR\avr\inc\dlib\c\yvals.h D:\IAR\avr\inc\dlib\c\DLib_Defaults.h \
+  D:\IAR\avr\inc\dlib\c\DLib_Config_Normal.h \
+  D:\IAR\avr\inc\dlib\c\DLib_Product.h D:\IAR\avr\inc\dlib\c\ysizet.h \
+  D:\IAR\avr\inc\dlib\c\stdint.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\packing.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\params.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\polyvec.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\poly.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\randombytes.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\sign.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\ntt.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\symmetric.h \
+  C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium3\avrAsm(barrett)\rounding.h

@@ -1,0 +1,1477 @@
+###############################################################################
+#
+# IAR UBROF Linker V8.10.1.1784/W64 for Microchip AVR     07/Apr/2024  16:00:26
+# Copyright 2017-2023 IAR Systems AB.
+#
+#    Target Cpu    =  AVR
+#    Map file      =
+#        C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\List\iar_dilithium2_avrAsm(Mont).map
+#    Output file 1 =
+#        C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Exe\iar_dilithium2_avrAsm(Mont).d90
+#                  =  Format: debug
+#                  =  UBROF version 12.0.0
+#                  =  Using library modules for C-SPY (-rt)
+#    Command line  =
+#        -f
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Exe\iar_dilithium2_avrAsm(Mont).d90.rsp"
+#        ("C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\fips202.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\main.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\mont_mul.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\ntt.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\packing.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\poly.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\polyvec.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\randombytes.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\reduce.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\rounding.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\sign.r90"
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\symmetric-shake.r90"
+#        --output
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Exe\iar_dilithium2_avrAsm(Mont).d90"
+#        -l
+#        "C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\List\iar_dilithium2_avrAsm(Mont).map"
+#        -xaems -ID:\IAR\avr\lib\ --f D:\IAR\avr/src/template/lnk6h.xcl
+#        (-D_..X_CSTACK_SIZE=8000 -D_..X_RSTACK_SIZE=200 -D_..X_HEAP_SIZE=8000
+#        -D_..X_FAR_HEAP_SIZE=8000 -D_..X_NEAR_HEAP_SIZE=1000
+#        -D_..X_HUGE_HEAP_SIZE=8000 -ca90 "-Z(CODE)INTVEC=0-5F"
+#        "-Z(CODE)TINY_F=0-FF" "-Z(CODE)SWITCH,DIFUNCT=0-FFFF"
+#        "-Z(CODE)NEAR_F=0-FFFF" "-Z(CODE)CODE=80-1FFFF"
+#        "-Z(CODE)FAR_ID=[20000-7FFFFF]/10000" "-Z(CODE)FARCODE=80-7FFFFF"
+#        "-P(CODE)FAR_F=[0-7FFFFF]/10000" "-Z(CODE)HUGE_F,INITTAB=0-7FFFFF"
+#        "-Z(CODE).iar.locale_table,.iar.locale_encoding,__iar_tls$$INIT_DATA=0-7FFFFF"
+#        "-Z(CODE)TINY_ID,NEAR_ID,HUGE_ID=0-7FFFFF" "-Z(CODE)CHECKSUM#7FFFFF"
+#        "-Z(DATA)TINY_I,TINY_Z,TINY_N=60-FF"
+#        "-Z(DATA)RSTACK+_..X_RSTACK_SIZE=60-FFFF"
+#        "-Z(DATA)NEAR_I,NEAR_Z,NEAR_N=60-FFFF" "-Z(CONST)NEAR_C=60-FFFF"
+#        "-Z(DATA)FAR_I,FAR_Z,FAR_N=[10000-FFFFFF]/10000"
+#        "-Z(DATA)IOSTREAM_N#[60-7FFFFF]/10000"
+#        "-Z(DATA)CSTACK+_..X_CSTACK_SIZE=[60-FFFFFF]/10000"
+#        "-Z(DATA)HEAP+_..X_HEAP_SIZE=[60-7FFFFF]/10000"
+#        "-Z(DATA)NEAR_HEAP+_..X_NEAR_HEAP_SIZE=60-FFFF"
+#        "-Z(DATA)FAR_HEAP+_..X_FAR_HEAP_SIZE=60-FFFFFF"
+#        "-Z(DATA)HUGE_HEAP+_..X_HUGE_HEAP_SIZE=60-FFFFFF"
+#        "-Z(CONST)FAR_C=[60-FFFFFF]/10000"
+#        "-Z(DATA)HUGE_I,HUGE_Z,HUGE_N=60-FFFFFF"
+#        "-Z(DATA)__iar_tls$$DATA=60-FFFFFF" "-Z(CONST)HUGE_C=60-FFFFFF" -w29)
+#        -rt --entry __program_start --text_out locale)
+#
+###############################################################################
+
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *            PROGRAM ENTRY             *
+                *                                      *
+                ****************************************
+
+  ADDRESS     SPACE  TYPE         MODULE
+  -------     -----  ----         ------
+  0x000005F8  CODE   Relocatable  ?C_STARTUP
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  ATTRIBUTE                   VALUE
+  ---------                   -----
+  R10                         REG
+  R11                         REG
+  R12                         REG
+  R13                         REG
+  R14                         REG
+  R15                         REG
+  R4                          REG
+  R5                          REG
+  R6                          REG
+  R7                          REG
+  R8                          REG
+  R9                          REG
+  __64bit_doubles             disabled
+  __SystemLibrary             DLib
+  __architecture              *
+  __cpu                       6
+  __dlib_file_descriptor      0
+  __dlib_full_locale_support  0
+  __dlib_version              6
+  __enhanced_core             enabled
+  __enhanced_core_mul         enabled
+  __has_elpm                  true
+  __memory_model              5
+  __mex                       disabled
+  __no_rampd                  disabled
+  __rt_version                3
+  __tiny_avr                  false
+  __vtable_memory             __hugeflash
+
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                   There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *   AUTOMATICALLY SELECTED LIBRARIES   *
+                *                                      *
+                ****************************************
+
+                  D:\IAR\avr\lib\dlib\dlAVR-6h-ec_mul-n.r90
+
+
+
+                ****************************************
+                *                                      *
+                *              ENTRY LIST              *
+                *                                      *
+                ****************************************
+
+ENTRY                           SPACE  ADDRESS     KIND  TYPE  MODULE
+-----                           -----  -------     ----  ----  ------
+?RESET                          CODE   0x00000000  Pub         ?RESET [0]
+zetas                           CODE   0x00000004  Loc   Data  ntt
+_..X_RSTACK_SIZE                CODE   0x00000200  Pub         ?ABS_ENTRY_MOD [1]
+mont_mul                        CODE   0x00000404  Pub   Code  mont_mul
+_exit                           CODE   0x000005F4  Pub   Code  ?_exit [0]
+__program_start                 CODE   0x000005F8  Pub         ?C_STARTUP [0]
+?C_STARTUP                      CODE   0x000005F8  Pub         ?C_STARTUP [0]
+__RESTART                       CODE   0x000005F8  Pub         ?C_STARTUP [0]
+?zero_reg_initialization        CODE   0x000005F8  Pub         ?C_STARTUP [0]
+?call_low_level_init            CODE   0x0000060C  Pub         ?C_STARTUP [0]
+?need_segment_init              CODE   0x00000610  Pub         ?C_STARTUP [0]
+?cstartup_call_main             CODE   0x00000618  Pub         ?C_STARTUP [0]
+?US_DIVMOD_L02                  CODE   0x00000624  Pub         ?US_DIVMOD_L02 [0]
+?US_DIVMOD_S_L02                CODE   0x00000624  Pub         ?US_DIVMOD_L02 [0]
+?UL_DIVMOD_L03                  CODE   0x00000656  Pub         ?UL_DIVMOD_L03 [0]
+?UL_DIVMOD_S_L03                CODE   0x00000656  Pub         ?UL_DIVMOD_L03 [0]
+?Register_R4_is_cg_reg          CODE   0x000006B6  Pub         ?REGISTER_CGREGR4_L10 [0]
+?Register_R5_is_cg_reg          CODE   0x000006B6  Pub         ?REGISTER_CGREGR5_L10 [0]
+?Register_R6_is_cg_reg          CODE   0x000006B6  Pub         ?REGISTER_CGREGR6_L10 [0]
+?Register_R7_is_cg_reg          CODE   0x000006B6  Pub         ?REGISTER_CGREGR7_L10 [0]
+?Register_R8_is_cg_reg          CODE   0x000006B6  Pub         ?REGISTER_CGREGR8_L10 [0]
+?Register_R9_is_cg_reg          CODE   0x000006B6  Pub         ?REGISTER_CGREGR9_L10 [0]
+?Register_R10_is_cg_reg         CODE   0x000006B6  Pub         ?REGISTER_CGREGR10_L10 [0]
+?Register_R11_is_cg_reg         CODE   0x000006B6  Pub         ?REGISTER_CGREGR11_L10 [0]
+?Register_R12_is_cg_reg         CODE   0x000006B6  Pub         ?REGISTER_CGREGR12_L10 [0]
+?Register_R13_is_cg_reg         CODE   0x000006B6  Pub         ?REGISTER_CGREGR13_L10 [0]
+?Register_R14_is_cg_reg         CODE   0x000006B6  Pub         ?REGISTER_CGREGR14_L10 [0]
+?Register_R15_is_cg_reg         CODE   0x000006B6  Pub         ?REGISTER_CGREGR15_L10 [0]
+?LL_SHL_L12                     CODE   0x000006B6  Pub         ?LONGLONG [0]
+?ULL_SHR_L12                    CODE   0x000006CE  Pub         ?LONGLONG [0]
+?LL_ADD_L12                     CODE   0x000006E6  Pub         ?LONGLONG [0]
+?LL_AND_L12                     CODE   0x00000708  Pub         ?LONGLONG [0]
+?LL_IOR_L12                     CODE   0x0000072A  Pub         ?LONGLONG [0]
+?LL_XOR_L12                     CODE   0x0000074C  Pub         ?LONGLONG [0]
+?LL_SUB_L12                     CODE   0x0000076E  Pub         ?LONGLONG [0]
+?LL_CMP_L12                     CODE   0x00000790  Pub         ?LONGLONG [0]
+KeccakF1600_StatePermute        CODE   0x000007B2  Loc   Code  fips202
+_..X_NEAR_HEAP_SIZE             CODE   0x00001000  Pub         ?ABS_ENTRY_MOD [1]
+keccak_absorb                   CODE   0x000046B4  Loc   Code  fips202
+keccak_squeezeblocks            CODE   0x00004B72  Loc   Code  fips202
+keccak_inc_absorb               CODE   0x00004CB2  Loc   Code  fips202
+keccak_inc_squeeze              CODE   0x00005004  Loc   Code  fips202
+?Subroutine4                    CODE   0x000052AE  Loc         fips202
+shake128_inc_init               CODE   0x000052D2  Pub   Code  fips202
+shake128_inc_absorb             CODE   0x000052D4  Pub   Code  fips202
+?Subroutine3                    CODE   0x000052EE  Loc         fips202
+shake128_inc_finalize           CODE   0x00005312  Pub   Code  fips202
+?Subroutine1                    CODE   0x000053AE  Loc         fips202
+shake128_inc_squeeze            CODE   0x000053EE  Pub   Code  fips202
+shake128_inc_ctx_release        CODE   0x000053FA  Pub   Code  fips202
+shake256_inc_init               CODE   0x000053FC  Pub   Code  fips202
+shake256_inc_absorb             CODE   0x000053FE  Pub   Code  fips202
+shake256_inc_finalize           CODE   0x00005400  Pub   Code  fips202
+shake256_inc_squeeze            CODE   0x0000549E  Pub   Code  fips202
+shake256_inc_ctx_release        CODE   0x000054AA  Pub   Code  fips202
+?Subroutine10                   CODE   0x000054AC  Loc         fips202
+?Subroutine2                    CODE   0x000054C6  Loc         fips202
+shake256_squeezeblocks          CODE   0x000054EA  Pub   Code  fips202
+?Subroutine5                    CODE   0x000054F6  Loc         fips202
+shake256                        CODE   0x00005512  Pub   Code  fips202
+?Subroutine0                    CODE   0x00005672  Loc         fips202
+?Subroutine15                   CODE   0x000056CC  Loc         fips202
+main                            CODE   0x000056D0  Pub   Code  main
+ntt                             CODE   0x000057D0  Pub   Code  ntt
+?Subroutine0                    CODE   0x0000593A  Loc         ntt
+invntt_tomont                   CODE   0x00005958  Pub   Code  ntt
+pack_pk                         CODE   0x00005B2A  Pub   Code  packing
+?Subroutine3                    CODE   0x00005B82  Loc         packing
+unpack_pk_rho                   CODE   0x00005B94  Pub   Code  packing
+pack_sk_rho_tr_key              CODE   0x00005BD2  Pub   Code  packing
+unpack_sk_rho_tr_key            CODE   0x00005C4C  Pub   Code  packing
+pack_sig_setup                  CODE   0x00005CC6  Pub   Code  packing
+unpack_sig_c_z                  CODE   0x00005D30  Pub   Code  packing
+poly_reduce                     CODE   0x00005DFA  Pub   Code  poly
+?Subroutine5                    CODE   0x00005E3A  Loc         poly
+poly_caddq                      CODE   0x00005E46  Pub   Code  poly
+poly_add                        CODE   0x00005E88  Pub   Code  poly
+?Subroutine2                    CODE   0x00005EEA  Loc         poly
+poly_sub                        CODE   0x00005EFE  Pub   Code  poly
+poly_shiftl                     CODE   0x00005F62  Pub   Code  poly
+poly_ntt                        CODE   0x00005F9A  Pub   Code  poly
+poly_invntt_tomont              CODE   0x00005F9E  Pub   Code  poly
+poly_pointwise_montgomery       CODE   0x00005FA2  Pub   Code  poly
+poly_power2round                CODE   0x0000600C  Pub   Code  poly
+?Subroutine0                    CODE   0x00006072  Loc         poly
+poly_decompose_a1               CODE   0x0000608C  Pub   Code  poly
+?Subroutine1                    CODE   0x000060FA  Loc         poly
+poly_decompose_a0               CODE   0x00006112  Pub   Code  poly
+poly_make_hint                  CODE   0x0000616E  Pub   Code  poly
+poly_use_hint                   CODE   0x00006200  Pub   Code  poly
+poly_chknorm                    CODE   0x0000626C  Pub   Code  poly
+rej_uniform                     CODE   0x000062F8  Loc   Code  poly
+?Subroutine6                    CODE   0x000063EA  Loc         poly
+poly_uniform                    CODE   0x000063F6  Pub   Code  poly
+rej_eta                         CODE   0x0000655A  Loc   Code  poly
+poly_uniform_eta                CODE   0x000066E4  Pub   Code  poly
+polyz_unpack                    CODE   0x000067D6  Pub   Code  poly
+poly_uniform_gamma1             CODE   0x000069C0  Pub   Code  poly
+poly_challenge                  CODE   0x00006A2E  Pub   Code  poly
+?Subroutine3                    CODE   0x00006C44  Loc         poly
+polyeta_pack                    CODE   0x00006C56  Pub   Code  poly
+polyeta_unpack                  CODE   0x00006D36  Pub   Code  poly
+?Subroutine7                    CODE   0x00006F3C  Loc         poly
+polyt1_pack                     CODE   0x00006F48  Pub   Code  poly
+polyt1_unpack                   CODE   0x00006FFE  Pub   Code  poly
+?Subroutine4                    CODE   0x000070DC  Loc         poly
+polyt0_pack                     CODE   0x000070EC  Pub   Code  poly
+polyt0_unpack                   CODE   0x00007418  Pub   Code  poly
+polyz_pack                      CODE   0x00007726  Pub   Code  poly
+polyw1_pack                     CODE   0x000078A0  Pub   Code  poly
+polyvecl_ntt                    CODE   0x00007958  Pub   Code  polyvec
+?Subroutine5                    CODE   0x00007958  Loc         polyvec
+?Subroutine6                    CODE   0x0000797A  Loc         polyvec
+polyvecl_chknorm                CODE   0x0000799C  Pub   Code  polyvec
+?Subroutine3                    CODE   0x000079DA  Loc         polyvec
+polyveck_reduce                 CODE   0x000079EE  Pub   Code  polyvec
+polyveck_caddq                  CODE   0x000079F0  Pub   Code  polyvec
+?Subroutine2                    CODE   0x00007A12  Loc         polyvec
+polyveck_invntt_tomont          CODE   0x00007A3C  Pub   Code  polyvec
+randombytes                     CODE   0x00007A3E  Pub   Code  randombytes
+reduce32                        CODE   0x00007A74  Pub   Code  reduce
+caddq                           CODE   0x00007AF6  Pub   Code  reduce
+power2round                     CODE   0x00007B32  Pub   Code  rounding
+decompose                       CODE   0x00007BA0  Pub   Code  rounding
+make_hint                       CODE   0x00007CE6  Pub   Code  rounding
+use_hint                        CODE   0x00007D24  Pub   Code  rounding
+crypto_sign_keypair             CODE   0x00007E96  Pub   Code  sign
+_..X_HUGE_HEAP_SIZE             CODE   0x00008000  Pub         ?ABS_ENTRY_MOD [1]
+_..X_FAR_HEAP_SIZE              CODE   0x00008000  Pub         ?ABS_ENTRY_MOD [1]
+_..X_HEAP_SIZE                  CODE   0x00008000  Pub         ?ABS_ENTRY_MOD [1]
+_..X_CSTACK_SIZE                CODE   0x00008000  Pub         ?ABS_ENTRY_MOD [1]
+crypto_sign_signature           CODE   0x00008202  Pub   Code  sign
+?Subroutine0                    CODE   0x0000898A  Loc         sign
+crypto_sign_verify              CODE   0x000089AE  Pub   Code  sign
+dilithium_shake128_stream_init  CODE   0x00008F40  Pub   Code  symmetric-shake
+?Subroutine0                    CODE   0x00008FA0  Loc         symmetric-shake
+dilithium_shake256_stream_init  CODE   0x00008FB2  Pub   Code  symmetric-shake
+__DebugBreak                    CODE   0x00009014  Pub   Code  ?__dbg_break [0]
+__exit                          CODE   0x00009016  Pub   Code  ?__exit [0]
+exit                            CODE   0x0000902E  Pub   Code  ?exit [0]
+__low_level_init                CODE   0x00009032  Pub   Code  ?low_level_init [0]
+__segment_init                  CODE   0x00009036  Pub   Code  ?segment_init [0]
+__far_memzero                   CODE   0x0000909C  Pub   Code  ?xxmemxmemzero [0]
+?<Segment init: HUGE_I>         CODE   0x000090B4  Pub         fips202
+?<Segment init: HUGE_Z>         CODE   0x000090BE  Pub         main
+KeccakF_RoundConstants          DATA   0x00008260  Loc   Data  fips202
+ret                             DATA   0x00008320  Pub   Data  main
+
+[0] = D:\IAR\avr\lib\dlib\dlAVR-6h-ec_mul-n.r90
+[1] = Command line (linker generated)
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+Linker generated:
+  Module: ?FILLER_BYTES
+**************************************************************
+Linker generated:
+  Module: ?ABS_ENTRY_MOD
+
+      Absolute module symbols:
+        _..X_HUGE_HEAP_SIZE  0x00008000  Pub
+        _..X_NEAR_HEAP_SIZE  0x00001000  Pub
+        _..X_FAR_HEAP_SIZE   0x00008000  Pub
+        _..X_HEAP_SIZE       0x00008000  Pub
+        _..X_RSTACK_SIZE     0x00000200  Pub
+        _..X_CSTACK_SIZE     0x00008000  Pub
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\fips202.r90
+  Module: fips202
+       Segment part 3, HUGE_I
+       Address: DATA 0x00008260 Size: 0xC0 Align: 1(0)
+       Ref by:   KeccakF1600_StatePermute
+      KeccakF_RoundConstants  0x00008260  Loc
+    --------------------------------------------------
+       Segment part 6, FARCODE
+       Address: CODE 0x000007B2 Size: 0x3F02 Align: 2(1)
+       Ref by:   keccak_inc_squeeze
+                 keccak_inc_absorb
+                 keccak_squeezeblocks
+                 keccak_absorb
+      KeccakF1600_StatePermute  0x000007B2  Loc
+    --------------------------------------------------
+       Segment part 7, FARCODE
+       Address: CODE 0x000046B4 Size: 0x4BE Align: 2(1)
+       Ref by:   ?Subroutine15
+      keccak_absorb        0x000046B4  Loc
+    --------------------------------------------------
+       Segment part 8, FARCODE
+       Address: CODE 0x00004B72 Size: 0x140 Align: 2(1)
+       Ref by:   ?Subroutine10
+      keccak_squeezeblocks  0x00004B72  Loc
+    --------------------------------------------------
+       Segment part 9, FARCODE
+       Address: CODE 0x00004CB2 Size: 0x352 Align: 2(1)
+       Ref by:   Segment part 16
+      keccak_inc_absorb    0x00004CB2  Loc
+    --------------------------------------------------
+       Segment part 10, FARCODE
+       Address: CODE 0x00005004 Size: 0x2AA Align: 2(1)
+       Ref by:   ?Subroutine2
+      keccak_inc_squeeze   0x00005004  Loc
+    --------------------------------------------------
+       Segment part 11, FARCODE
+       Address: CODE 0x000052AE Size: 0x1C Align: 2(1)
+       Ref by:   keccak_inc_squeeze
+                 keccak_inc_absorb
+                 keccak_squeezeblocks
+      ?Subroutine4         0x000052AE  Loc
+    --------------------------------------------------
+       Segment part 12, FARCODE
+       Address: CODE 0x000052CA Size: 0x8 Align: 2(1)
+       Ref by:   ?Subroutine4
+                 keccak_absorb
+    --------------------------------------------------
+       Segment part 13, FARCODE
+       Address: CODE 0x000052D2 Size: 0x2 Align: 2(1)
+      shake128_inc_init    0x000052D2  Pub  Ref by:   dilithium_shake128_stream_init (symmetric-shake)
+    --------------------------------------------------
+       Segment part 14, FARCODE
+       Address: CODE 0x000052D4 Size: 0x1A Align: 2(1)
+      shake128_inc_absorb  0x000052D4  Pub  Ref by:   dilithium_shake128_stream_init (symmetric-shake)
+    --------------------------------------------------
+       Segment part 15, FARCODE
+       Address: CODE 0x000052EE Size: 0x18 Align: 2(1)
+       Ref by:   shake256_inc_absorb
+      ?Subroutine3         0x000052EE  Loc
+    --------------------------------------------------
+       Segment part 16, FARCODE
+       Address: CODE 0x00005306 Size: 0xC Align: 2(1)
+       Ref by:   ?Subroutine3
+                 shake128_inc_absorb
+    --------------------------------------------------
+       Segment part 17, FARCODE
+       Address: CODE 0x00005312 Size: 0x9C Align: 2(1)
+      shake128_inc_finalize  0x00005312  Pub  Ref by:   dilithium_shake128_stream_init (symmetric-shake)
+    --------------------------------------------------
+       Segment part 18, FARCODE
+       Address: CODE 0x000053AE Size: 0x40 Align: 2(1)
+       Ref by:   shake256_inc_finalize
+                 shake128_inc_finalize
+      ?Subroutine1         0x000053AE  Loc
+    --------------------------------------------------
+       Segment part 19, FARCODE
+       Address: CODE 0x000053EE Size: 0xC Align: 2(1)
+      shake128_inc_squeeze  0x000053EE  Pub  Ref by:   poly_uniform (poly)
+    --------------------------------------------------
+       Segment part 21, FARCODE
+       Address: CODE 0x000053FA Size: 0x2 Align: 2(1)
+      shake128_inc_ctx_release  0x000053FA  Pub  Ref by:   poly_uniform (poly)
+    --------------------------------------------------
+       Segment part 22, FARCODE
+       Address: CODE 0x000053FC Size: 0x2 Align: 2(1)
+      shake256_inc_init    0x000053FC  Pub  Ref by:   dilithium_shake256_stream_init (symmetric-shake)
+                                                      crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      poly_challenge (poly)
+    --------------------------------------------------
+       Segment part 23, FARCODE
+       Address: CODE 0x000053FE Size: 0x2 Align: 2(1)
+      shake256_inc_absorb  0x000053FE  Pub  Ref by:   dilithium_shake256_stream_init (symmetric-shake)
+                                                      crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      poly_challenge (poly)
+    --------------------------------------------------
+       Segment part 24, FARCODE
+       Address: CODE 0x00005400 Size: 0x9E Align: 2(1)
+      shake256_inc_finalize  0x00005400  Pub  Ref by:   dilithium_shake256_stream_init (symmetric-shake)
+                                                        crypto_sign_verify (sign)
+                                                        crypto_sign_signature (sign)
+                                                        poly_challenge (poly)
+    --------------------------------------------------
+       Segment part 25, FARCODE
+       Address: CODE 0x0000549E Size: 0xC Align: 2(1)
+      shake256_inc_squeeze  0x0000549E  Pub  Ref by:   crypto_sign_verify (sign)
+                                                       crypto_sign_signature (sign)
+                                                       poly_challenge (poly)
+                                                       poly_uniform_gamma1 (poly)
+                                                       poly_uniform_eta (poly)
+    --------------------------------------------------
+       Segment part 27, FARCODE
+       Address: CODE 0x000054AA Size: 0x2 Align: 2(1)
+      shake256_inc_ctx_release  0x000054AA  Pub  Ref by:   crypto_sign_verify (sign)
+                                                           crypto_sign_signature (sign)
+                                                           poly_challenge (poly)
+                                                           poly_uniform_gamma1 (poly)
+                                                           poly_uniform_eta (poly)
+    --------------------------------------------------
+       Segment part 31, FARCODE
+       Address: CODE 0x000054AC Size: 0x1A Align: 2(1)
+       Ref by:   shake256_squeezeblocks
+      ?Subroutine10        0x000054AC  Loc
+    --------------------------------------------------
+       Segment part 32, FARCODE
+       Address: CODE 0x000054C6 Size: 0x18 Align: 2(1)
+       Ref by:   shake256_inc_squeeze
+                 shake128_inc_squeeze
+      ?Subroutine2         0x000054C6  Loc
+    --------------------------------------------------
+       Segment part 33, FARCODE
+       Address: CODE 0x000054DE Size: 0xC Align: 2(1)
+       Ref by:   ?Subroutine2
+                 ?Subroutine10
+    --------------------------------------------------
+       Segment part 37, FARCODE
+       Address: CODE 0x000054EA Size: 0xC Align: 2(1)
+       Ref by:   shake256
+      shake256_squeezeblocks  0x000054EA  Pub
+    --------------------------------------------------
+       Segment part 41, FARCODE
+       Address: CODE 0x000054F6 Size: 0x1C Align: 2(1)
+       Ref by:   shake256
+      ?Subroutine5         0x000054F6  Loc
+    --------------------------------------------------
+       Segment part 42, FARCODE
+       Address: CODE 0x00005512 Size: 0x160 Align: 2(1)
+      shake256             0x00005512  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 44, FARCODE
+       Address: CODE 0x00005672 Size: 0x5A Align: 2(1)
+       Ref by:   shake256_inc_init
+                 shake128_inc_init
+      ?Subroutine0         0x00005672  Loc
+    --------------------------------------------------
+       Segment part 67, FARCODE
+       Address: CODE 0x000056CC Size: 0x4 Align: 2(1)
+       Ref by:   shake256
+      ?Subroutine15        0x000056CC  Loc
+    --------------------------------------------------
+       Segment part 4, HUGE_ID
+       Address: CODE 0x000090C8 Size: 0xC0 Align: 1(0)
+       Ref by:   KeccakF_RoundConstants
+    --------------------------------------------------
+       Segment part 5, INITTAB
+       Address: CODE 0x000090B4 Size: 0xA Align: 1(0)
+       Ref by:   KeccakF_RoundConstants
+      ?<Segment init: HUGE_I>  0x000090B4  Pub
+
+      Absolute module symbols:
+        load64               0x00000000  Pub
+        store64              0x00000000  Pub
+        keccak_inc_finalize  0x00000000  Pub
+        keccak_inc_init      0x00000000  Pub
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\main.r90
+  Module: main
+       Segment part 3, HUGE_Z
+       Address: DATA 0x00008320 Size: 0x2 Align: 1(0)
+       Ref by:   main
+      ret                  0x00008320  Pub
+    --------------------------------------------------
+       Segment part 5, FARCODE
+       Address: CODE 0x000056D0 Size: 0x100 Align: 2(1)
+      main                 0x000056D0  Pub  Ref by:   ?cstartup_call_main (?C_STARTUP)
+    --------------------------------------------------
+       Segment part 4, INITTAB
+       Address: CODE 0x000090BE Size: 0xA Align: 1(0)
+       Ref by:   ret
+      ?<Segment init: HUGE_Z>  0x000090BE  Pub
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\mont_mul.r90
+  Module: mont_mul
+       Segment part 0, CODE [root]
+       Address: CODE 0x00000404 Size: 0x1F0 Align: 2(1)
+      mont_mul             0x00000404  Pub  Ref by:   poly_pointwise_montgomery (poly)
+                                                      invntt_tomont (ntt)
+                                                      ntt (ntt)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\ntt.r90
+  Module: ntt
+       Segment part 3, NEAR_F
+       Address: CODE 0x00000004 Size: 0x400 Align: 1(0)
+       Ref by:   invntt_tomont
+                 ntt
+      zetas                0x00000004  Loc
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x000057D0 Size: 0x16A Align: 2(1)
+      ntt                  0x000057D0  Pub  Ref by:   poly_ntt (poly)
+    --------------------------------------------------
+       Segment part 5, FARCODE
+       Address: CODE 0x0000593A Size: 0x1E Align: 2(1)
+       Ref by:   invntt_tomont
+                 ntt
+      ?Subroutine0         0x0000593A  Loc
+    --------------------------------------------------
+       Segment part 6, FARCODE
+       Address: CODE 0x00005958 Size: 0x1D2 Align: 2(1)
+      invntt_tomont        0x00005958  Pub  Ref by:   poly_invntt_tomont (poly)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\packing.r90
+  Module: packing
+       Segment part 3, FARCODE
+       Address: CODE 0x00005B2A Size: 0x58 Align: 2(1)
+      pack_pk              0x00005B2A  Pub  Ref by:   crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x00005B82 Size: 0x12 Align: 2(1)
+       Ref by:   pack_pk
+      ?Subroutine3         0x00005B82  Loc
+    --------------------------------------------------
+       Segment part 6, FARCODE
+       Address: CODE 0x00005B94 Size: 0x3E Align: 2(1)
+      unpack_pk_rho        0x00005B94  Pub  Ref by:   crypto_sign_verify (sign)
+    --------------------------------------------------
+       Segment part 12, FARCODE
+       Address: CODE 0x00005BD2 Size: 0x7A Align: 2(1)
+      pack_sk_rho_tr_key   0x00005BD2  Pub  Ref by:   crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 15, FARCODE
+       Address: CODE 0x00005C4C Size: 0x7A Align: 2(1)
+      unpack_sk_rho_tr_key  0x00005C4C  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 21, FARCODE
+       Address: CODE 0x00005CC6 Size: 0x6A Align: 2(1)
+      pack_sig_setup       0x00005CC6  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 25, FARCODE
+       Address: CODE 0x00005D30 Size: 0xCA Align: 2(1)
+      unpack_sig_c_z       0x00005D30  Pub  Ref by:   crypto_sign_verify (sign)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\poly.r90
+  Module: poly
+       Segment part 3, FARCODE
+       Address: CODE 0x00005DFA Size: 0x40 Align: 2(1)
+      poly_reduce          0x00005DFA  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      ?Subroutine2 (polyvec)
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x00005E3A Size: 0xC Align: 2(1)
+       Ref by:   poly_caddq
+                 poly_reduce
+      ?Subroutine5         0x00005E3A  Loc
+    --------------------------------------------------
+       Segment part 5, FARCODE
+       Address: CODE 0x00005E46 Size: 0x42 Align: 2(1)
+      poly_caddq           0x00005E46  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_keypair (sign)
+                                                      polyveck_caddq (polyvec)
+    --------------------------------------------------
+       Segment part 7, FARCODE
+       Address: CODE 0x00005E88 Size: 0x62 Align: 2(1)
+      poly_add             0x00005E88  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 8, FARCODE
+       Address: CODE 0x00005EEA Size: 0x14 Align: 2(1)
+       Ref by:   poly_sub
+                 poly_add
+      ?Subroutine2         0x00005EEA  Loc
+    --------------------------------------------------
+       Segment part 9, FARCODE
+       Address: CODE 0x00005EFE Size: 0x64 Align: 2(1)
+      poly_sub             0x00005EFE  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 10, FARCODE
+       Address: CODE 0x00005F62 Size: 0x38 Align: 2(1)
+      poly_shiftl          0x00005F62  Pub  Ref by:   crypto_sign_verify (sign)
+    --------------------------------------------------
+       Segment part 11, FARCODE
+       Address: CODE 0x00005F9A Size: 0x4 Align: 2(1)
+      poly_ntt             0x00005F9A  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      crypto_sign_keypair (sign)
+                                                      ?Subroutine5 (polyvec)
+    --------------------------------------------------
+       Segment part 12, FARCODE
+       Address: CODE 0x00005F9E Size: 0x4 Align: 2(1)
+      poly_invntt_tomont   0x00005F9E  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      ?Subroutine6 (polyvec)
+    --------------------------------------------------
+       Segment part 13, FARCODE
+       Address: CODE 0x00005FA2 Size: 0x6A Align: 2(1)
+      poly_pointwise_montgomery  0x00005FA2  Pub  Ref by:   crypto_sign_verify (sign)
+                                                            crypto_sign_signature (sign)
+                                                            crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 14, FARCODE
+       Address: CODE 0x0000600C Size: 0x66 Align: 2(1)
+      poly_power2round     0x0000600C  Pub  Ref by:   crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 16, FARCODE
+       Address: CODE 0x00006072 Size: 0x1A Align: 2(1)
+       Ref by:   poly_use_hint
+                 poly_power2round
+                 poly_pointwise_montgomery
+      ?Subroutine0         0x00006072  Loc
+    --------------------------------------------------
+       Segment part 17, FARCODE
+       Address: CODE 0x0000608C Size: 0x6E Align: 2(1)
+      poly_decompose_a1    0x0000608C  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 18, FARCODE
+       Address: CODE 0x000060FA Size: 0x10 Align: 2(1)
+       Ref by:   poly_decompose_a0
+                 poly_decompose_a1
+      ?Subroutine1         0x000060FA  Loc
+    --------------------------------------------------
+       Segment part 19, FARCODE
+       Address: CODE 0x0000610A Size: 0x8 Align: 2(1)
+       Ref by:   polyz_unpack
+                 ?Subroutine1
+    --------------------------------------------------
+       Segment part 20, FARCODE
+       Address: CODE 0x00006112 Size: 0x5C Align: 2(1)
+      poly_decompose_a0    0x00006112  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 21, FARCODE
+       Address: CODE 0x0000616E Size: 0x92 Align: 2(1)
+      poly_make_hint       0x0000616E  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 22, FARCODE
+       Address: CODE 0x00006200 Size: 0x6C Align: 2(1)
+      poly_use_hint        0x00006200  Pub  Ref by:   crypto_sign_verify (sign)
+    --------------------------------------------------
+       Segment part 23, FARCODE
+       Address: CODE 0x0000626C Size: 0x8C Align: 2(1)
+      poly_chknorm         0x0000626C  Pub  Ref by:   crypto_sign_signature (sign)
+                                                      polyvecl_chknorm (polyvec)
+    --------------------------------------------------
+       Segment part 24, FARCODE
+       Address: CODE 0x000062F8 Size: 0xF2 Align: 2(1)
+       Ref by:   poly_uniform
+      rej_uniform          0x000062F8  Loc
+    --------------------------------------------------
+       Segment part 25, FARCODE
+       Address: CODE 0x000063EA Size: 0xC Align: 2(1)
+       Ref by:   rej_eta
+                 rej_uniform
+      ?Subroutine6         0x000063EA  Loc
+    --------------------------------------------------
+       Segment part 26, FARCODE
+       Address: CODE 0x000063F6 Size: 0x164 Align: 2(1)
+      poly_uniform         0x000063F6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+                                                      crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 27, FARCODE
+       Address: CODE 0x0000655A Size: 0x18A Align: 2(1)
+       Ref by:   poly_uniform_eta
+      rej_eta              0x0000655A  Loc
+    --------------------------------------------------
+       Segment part 28, FARCODE
+       Address: CODE 0x000066E4 Size: 0xF2 Align: 2(1)
+      poly_uniform_eta     0x000066E4  Pub  Ref by:   crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 29, FARCODE
+       Address: CODE 0x000067D6 Size: 0x1EA Align: 2(1)
+       Ref by:   poly_uniform_gamma1
+      polyz_unpack         0x000067D6  Pub  Ref by:   unpack_sig_c_z (packing)
+    --------------------------------------------------
+       Segment part 30, FARCODE
+       Address: CODE 0x000069C0 Size: 0x6E Align: 2(1)
+      poly_uniform_gamma1  0x000069C0  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 31, FARCODE
+       Address: CODE 0x00006A2E Size: 0x216 Align: 2(1)
+      poly_challenge       0x00006A2E  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 32, FARCODE
+       Address: CODE 0x00006C44 Size: 0x8 Align: 2(1)
+       Ref by:   polyt0_pack
+                 poly_challenge
+      ?Subroutine3         0x00006C44  Loc
+    --------------------------------------------------
+       Segment part 33, FARCODE
+       Address: CODE 0x00006C4C Size: 0xA Align: 2(1)
+       Ref by:   polyz_pack
+                 ?Subroutine3
+    --------------------------------------------------
+       Segment part 34, FARCODE
+       Address: CODE 0x00006C56 Size: 0xE0 Align: 2(1)
+      polyeta_pack         0x00006C56  Pub  Ref by:   crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 35, FARCODE
+       Address: CODE 0x00006D36 Size: 0x206 Align: 2(1)
+      polyeta_unpack       0x00006D36  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 36, FARCODE
+       Address: CODE 0x00006F3C Size: 0x2 Align: 2(1)
+       Ref by:   polyt1_pack
+                 polyeta_unpack
+      ?Subroutine7         0x00006F3C  Loc
+    --------------------------------------------------
+       Segment part 37, FARCODE
+       Address: CODE 0x00006F3E Size: 0xA Align: 2(1)
+       Ref by:   polyw1_pack
+                 ?Subroutine7
+    --------------------------------------------------
+       Segment part 38, FARCODE
+       Address: CODE 0x00006F48 Size: 0xB6 Align: 2(1)
+      polyt1_pack          0x00006F48  Pub  Ref by:   pack_pk (packing)
+    --------------------------------------------------
+       Segment part 39, FARCODE
+       Address: CODE 0x00006FFE Size: 0xDE Align: 2(1)
+      polyt1_unpack        0x00006FFE  Pub  Ref by:   crypto_sign_verify (sign)
+    --------------------------------------------------
+       Segment part 40, FARCODE
+       Address: CODE 0x000070DC Size: 0x10 Align: 2(1)
+       Ref by:   polyt0_unpack
+                 polyt1_unpack
+      ?Subroutine4         0x000070DC  Loc
+    --------------------------------------------------
+       Segment part 41, FARCODE
+       Address: CODE 0x000070EC Size: 0x32C Align: 2(1)
+      polyt0_pack          0x000070EC  Pub  Ref by:   crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 42, FARCODE
+       Address: CODE 0x00007418 Size: 0x30E Align: 2(1)
+      polyt0_unpack        0x00007418  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 43, FARCODE
+       Address: CODE 0x00007726 Size: 0x17A Align: 2(1)
+      polyz_pack           0x00007726  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 44, FARCODE
+       Address: CODE 0x000078A0 Size: 0xB8 Align: 2(1)
+      polyw1_pack          0x000078A0  Pub  Ref by:   crypto_sign_verify (sign)
+                                                      crypto_sign_signature (sign)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\polyvec.r90
+  Module: polyvec
+       Segment part 13, FARCODE
+       Address: CODE 0x00007958 Size: 0x0 Align: 2(1)
+      polyvecl_ntt         0x00007958  Pub  Ref by:   crypto_sign_verify (sign)
+    --------------------------------------------------
+       Segment part 14, FARCODE
+       Address: CODE 0x00007958 Size: 0x22 Align: 2(1)
+       Ref by:   polyvecl_ntt
+      ?Subroutine5         0x00007958  Loc
+    --------------------------------------------------
+       Segment part 16, FARCODE
+       Address: CODE 0x0000797A Size: 0x22 Align: 2(1)
+       Ref by:   polyveck_invntt_tomont
+      ?Subroutine6         0x0000797A  Loc
+    --------------------------------------------------
+       Segment part 20, FARCODE
+       Address: CODE 0x0000799C Size: 0x3E Align: 2(1)
+      polyvecl_chknorm     0x0000799C  Pub  Ref by:   crypto_sign_verify (sign)
+    --------------------------------------------------
+       Segment part 21, FARCODE
+       Address: CODE 0x000079DA Size: 0x14 Align: 2(1)
+       Ref by:   polyvecl_chknorm
+      ?Subroutine3         0x000079DA  Loc
+    --------------------------------------------------
+       Segment part 23, FARCODE
+       Address: CODE 0x000079EE Size: 0x2 Align: 2(1)
+      polyveck_reduce      0x000079EE  Pub  Ref by:   crypto_sign_signature (sign)
+                                                      crypto_sign_keypair (sign)
+    --------------------------------------------------
+       Segment part 24, FARCODE
+       Address: CODE 0x000079F0 Size: 0x22 Align: 2(1)
+      polyveck_caddq       0x000079F0  Pub  Ref by:   crypto_sign_signature (sign)
+    --------------------------------------------------
+       Segment part 25, FARCODE
+       Address: CODE 0x00007A12 Size: 0x20 Align: 2(1)
+       Ref by:   polyveck_reduce
+      ?Subroutine2         0x00007A12  Loc
+    --------------------------------------------------
+       Segment part 26, FARCODE
+       Address: CODE 0x00007A32 Size: 0xA Align: 2(1)
+       Ref by:   ?Subroutine2
+                 polyveck_caddq
+                 ?Subroutine6
+                 ?Subroutine5
+    --------------------------------------------------
+       Segment part 34, FARCODE
+       Address: CODE 0x00007A3C Size: 0x2 Align: 2(1)
+      polyveck_invntt_tomont  0x00007A3C  Pub  Ref by:   crypto_sign_signature (sign)
+                                                         crypto_sign_keypair (sign)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\randombytes.r90
+  Module: randombytes
+       Segment part 3, FARCODE
+       Address: CODE 0x00007A3E Size: 0x36 Align: 2(1)
+      randombytes          0x00007A3E  Pub  Ref by:   crypto_sign_keypair (sign)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\reduce.r90
+  Module: reduce
+       Segment part 7, FARCODE
+       Address: CODE 0x00007A74 Size: 0x82 Align: 2(1)
+      reduce32             0x00007A74  Pub  Ref by:   poly_reduce (poly)
+    --------------------------------------------------
+       Segment part 8, FARCODE
+       Address: CODE 0x00007AF6 Size: 0x3C Align: 2(1)
+      caddq                0x00007AF6  Pub  Ref by:   poly_caddq (poly)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\rounding.r90
+  Module: rounding
+       Segment part 3, FARCODE
+       Address: CODE 0x00007B32 Size: 0x6E Align: 2(1)
+      power2round          0x00007B32  Pub  Ref by:   poly_power2round (poly)
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x00007BA0 Size: 0x146 Align: 2(1)
+      decompose            0x00007BA0  Pub  Ref by:   poly_decompose_a0 (poly)
+                                                      poly_decompose_a1 (poly)
+    --------------------------------------------------
+       Segment part 5, FARCODE
+       Address: CODE 0x00007CE6 Size: 0x3E Align: 2(1)
+      make_hint            0x00007CE6  Pub  Ref by:   poly_make_hint (poly)
+    --------------------------------------------------
+       Segment part 6, FARCODE
+       Address: CODE 0x00007D24 Size: 0x172 Align: 2(1)
+      use_hint             0x00007D24  Pub  Ref by:   poly_use_hint (poly)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\sign.r90
+  Module: sign
+       Segment part 3, FARCODE
+       Address: CODE 0x00007E96 Size: 0x36C Align: 2(1)
+      crypto_sign_keypair  0x00007E96  Pub  Ref by:   main (main)
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x00008202 Size: 0x788 Align: 2(1)
+      crypto_sign_signature  0x00008202  Pub  Ref by:   main (main)
+    --------------------------------------------------
+       Segment part 5, FARCODE
+       Address: CODE 0x0000898A Size: 0x24 Align: 2(1)
+       Ref by:   crypto_sign_verify
+                 crypto_sign_signature
+      ?Subroutine0         0x0000898A  Loc
+    --------------------------------------------------
+       Segment part 8, FARCODE
+       Address: CODE 0x000089AE Size: 0x592 Align: 2(1)
+      crypto_sign_verify   0x000089AE  Pub  Ref by:   main (main)
+**************************************************************
+File: C:\Users\daran\Documents\GitHub\dilithium_embedded\code_sign\crypto_sign\dilithium2\avrAsm(Mont)\iar_dilithium2_avrAsm(Mont)\Debug\Obj\symmetric-shake.r90
+  Module: symmetric-shake
+       Segment part 3, FARCODE
+       Address: CODE 0x00008F40 Size: 0x60 Align: 2(1)
+      dilithium_shake128_stream_init  0x00008F40  Pub  Ref by:   poly_uniform (poly)
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x00008FA0 Size: 0x12 Align: 2(1)
+       Ref by:   dilithium_shake256_stream_init
+                 dilithium_shake128_stream_init
+      ?Subroutine0         0x00008FA0  Loc
+    --------------------------------------------------
+       Segment part 5, FARCODE
+       Address: CODE 0x00008FB2 Size: 0x62 Align: 2(1)
+      dilithium_shake256_stream_init  0x00008FB2  Pub  Ref by:   poly_uniform_gamma1 (poly)
+                                                                 poly_uniform_eta (poly)
+**************************************************************
+File: D:\IAR\avr\lib\dlib\dlAVR-6h-ec_mul-n.r90
+  Module: ?__dbg_break
+       Segment part 3, FARCODE
+       Address: CODE 0x00009014 Size: 0x2 Align: 2(1)
+      __DebugBreak         0x00009014  Pub  Ref by:   __exit (?__exit)
+  ============================================================
+  Module: ?__exit
+       Segment part 3, FARCODE
+       Address: CODE 0x00009016 Size: 0x18 Align: 2(1)
+      __exit               0x00009016  Pub  Ref by:   Segment part 6 (?_exit)
+  ============================================================
+  Module: ?_exit
+       Segment part 0, CODE
+       Address: CODE 0x000005F4 Size: 0x0 Align: 2(1)
+      _exit                0x000005F4  Pub  Ref by:   exit (?exit)
+                                                      ?cstartup_call_main (?C_STARTUP)
+    --------------------------------------------------
+       Segment part 6, CODE
+       Address: CODE 0x000005F4 Size: 0x4 Align: 2(1)
+       Ref by:   _exit
+  ============================================================
+  Module: ?RESET
+       Segment part 0, INTVEC [root]
+       Address: CODE 0x00000000 Size: 0x4 Align: 2(1)
+      ?RESET               0x00000000  Pub  Ref by:   Segment part 2 (?C_STARTUP)
+  ============================================================
+  Module: ?C_STARTUP
+       Segment part 2, CODE
+       Address: CODE 0x000005F8 Size: 0x4 Align: 2(1)
+      __program_start           0x000005F8  Pub  Ref by:   Absolute parts (?ABS_ENTRY_MOD)
+      ?C_STARTUP                0x000005F8  Pub  Ref by:   ?RESET (?RESET)
+      __RESTART                 0x000005F8  Pub
+      ?zero_reg_initialization  0x000005F8  Pub
+    --------------------------------------------------
+       Segment part 5, CODE
+       Address: CODE 0x000005FC Size: 0x14 Align: 2(1)
+       Ref by:   Segment part 2
+      ?call_low_level_init  0x0000060C  Pub
+    --------------------------------------------------
+       Segment part 6, CODE
+       Address: CODE 0x00000610 Size: 0x8 Align: 2(1)
+      ?need_segment_init   0x00000610  Pub  Ref by:   ?<Segment init: HUGE_Z> (main)
+                                                      ?<Segment init: HUGE_I> (fips202)
+    --------------------------------------------------
+       Segment part 9, CODE
+       Address: CODE 0x00000618 Size: 0xC Align: 2(1)
+       Ref by:   ?call_low_level_init
+      ?cstartup_call_main  0x00000618  Pub
+  ============================================================
+  Module: ?exit
+       Segment part 3, FARCODE
+       Address: CODE 0x0000902E Size: 0x4 Align: 2(1)
+      exit                 0x0000902E  Pub  Ref by:   ?cstartup_call_main (?C_STARTUP)
+  ============================================================
+  Module: ?US_DIVMOD_L02
+       Segment part 0, CODE
+       Address: CODE 0x00000624 Size: 0x0 Align: 2(1)
+      ?US_DIVMOD_S_L02     0x00000624  Pub  Ref by:   poly_uniform (poly)
+    --------------------------------------------------
+       Segment part 1, CODE
+       Address: CODE 0x00000624 Size: 0x6 Align: 2(1)
+       Ref by:   ?US_DIVMOD_S_L02
+      ?US_DIVMOD_L02       0x00000624  Pub
+    --------------------------------------------------
+       Segment part 2, CODE
+       Address: CODE 0x0000062A Size: 0xC Align: 2(1)
+       Ref by:   ?US_DIVMOD_S_L02
+    --------------------------------------------------
+       Segment part 3, CODE
+       Address: CODE 0x00000636 Size: 0x20 Align: 2(1)
+       Ref by:   Segment part 2
+                 ?US_DIVMOD_L02
+  ============================================================
+  Module: ?UL_DIVMOD_L03
+       Segment part 0, CODE
+       Address: CODE 0x00000656 Size: 0x0 Align: 2(1)
+      ?UL_DIVMOD_S_L03     0x00000656  Pub  Ref by:   shake256 (fips202)
+    --------------------------------------------------
+       Segment part 1, CODE
+       Address: CODE 0x00000656 Size: 0x8 Align: 2(1)
+       Ref by:   ?UL_DIVMOD_S_L03
+      ?UL_DIVMOD_L03       0x00000656  Pub
+    --------------------------------------------------
+       Segment part 2, CODE
+       Address: CODE 0x0000065E Size: 0x22 Align: 2(1)
+       Ref by:   ?UL_DIVMOD_S_L03
+    --------------------------------------------------
+       Segment part 3, CODE
+       Address: CODE 0x00000680 Size: 0x36 Align: 2(1)
+       Ref by:   Segment part 2
+                 ?UL_DIVMOD_L03
+  ============================================================
+  Module: ?PROLOGUE_L09
+  ============================================================
+  Module: ?EPILOGUE_B_L09
+  ============================================================
+  Module: ?REGISTER_CGREGR4_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R4_is_cg_reg  0x000006B6  Pub  Ref by:   dilithium_shake128_stream_init (symmetric-shake)
+                                                         crypto_sign_verify (sign)
+                                                         crypto_sign_keypair (sign)
+                                                         polyt0_unpack (poly)
+                                                         polyeta_unpack (poly)
+                                                         rej_eta (poly)
+                                                         poly_reduce (poly)
+                                                         invntt_tomont (ntt)
+                                                         keccak_inc_squeeze (fips202)
+                                                         shake256 (fips202)
+                                                         poly_power2round (poly)
+                                                         poly_decompose_a0 (poly)
+                                                         poly_use_hint (poly)
+                                                         rej_uniform (poly)
+                                                         crypto_sign_signature (sign)
+                                                         decompose (rounding)
+                                                         polyw1_pack (poly)
+                                                         polyz_pack (poly)
+                                                         polyt1_unpack (poly)
+                                                         polyt1_pack (poly)
+                                                         poly_caddq (poly)
+                                                         pack_pk (packing)
+                                                         ntt (ntt)
+                                                         KeccakF1600_StatePermute (fips202)
+                                                         keccak_squeezeblocks (fips202)
+                                                         poly_decompose_a1 (poly)
+                                                         poly_chknorm (poly)
+                                                         dilithium_shake256_stream_init (symmetric-shake)
+                                                         reduce32 (reduce)
+                                                         polyvecl_chknorm (polyvec)
+                                                         polyeta_pack (poly)
+                                                         poly_challenge (poly)
+                                                         poly_uniform_eta (poly)
+                                                         poly_uniform (poly)
+                                                         unpack_sig_c_z (packing)
+                                                         poly_make_hint (poly)
+                                                         polyt0_pack (poly)
+                                                         polyz_unpack (poly)
+                                                         keccak_absorb (fips202)
+                                                         keccak_inc_absorb (fips202)
+                                                         poly_add (poly)
+                                                         poly_sub (poly)
+                                                         poly_pointwise_montgomery (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR5_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R5_is_cg_reg  0x000006B6  Pub  Ref by:   dilithium_shake128_stream_init (symmetric-shake)
+                                                         crypto_sign_verify (sign)
+                                                         crypto_sign_keypair (sign)
+                                                         polyt0_unpack (poly)
+                                                         polyeta_unpack (poly)
+                                                         rej_eta (poly)
+                                                         poly_reduce (poly)
+                                                         invntt_tomont (ntt)
+                                                         keccak_inc_squeeze (fips202)
+                                                         shake256 (fips202)
+                                                         poly_power2round (poly)
+                                                         poly_decompose_a0 (poly)
+                                                         poly_use_hint (poly)
+                                                         rej_uniform (poly)
+                                                         crypto_sign_signature (sign)
+                                                         decompose (rounding)
+                                                         polyw1_pack (poly)
+                                                         polyz_pack (poly)
+                                                         polyt1_unpack (poly)
+                                                         polyt1_pack (poly)
+                                                         poly_caddq (poly)
+                                                         pack_pk (packing)
+                                                         ntt (ntt)
+                                                         KeccakF1600_StatePermute (fips202)
+                                                         keccak_squeezeblocks (fips202)
+                                                         poly_decompose_a1 (poly)
+                                                         poly_chknorm (poly)
+                                                         dilithium_shake256_stream_init (symmetric-shake)
+                                                         reduce32 (reduce)
+                                                         polyvecl_chknorm (polyvec)
+                                                         polyeta_pack (poly)
+                                                         poly_challenge (poly)
+                                                         poly_uniform_eta (poly)
+                                                         poly_uniform (poly)
+                                                         unpack_sig_c_z (packing)
+                                                         poly_make_hint (poly)
+                                                         use_hint (rounding)
+                                                         polyt0_pack (poly)
+                                                         keccak_absorb (fips202)
+                                                         keccak_inc_absorb (fips202)
+                                                         poly_add (poly)
+                                                         poly_sub (poly)
+                                                         poly_pointwise_montgomery (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR6_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R6_is_cg_reg  0x000006B6  Pub  Ref by:   dilithium_shake128_stream_init (symmetric-shake)
+                                                         crypto_sign_verify (sign)
+                                                         crypto_sign_keypair (sign)
+                                                         polyt0_unpack (poly)
+                                                         polyeta_unpack (poly)
+                                                         invntt_tomont (ntt)
+                                                         keccak_inc_squeeze (fips202)
+                                                         shake256 (fips202)
+                                                         poly_power2round (poly)
+                                                         poly_decompose_a0 (poly)
+                                                         poly_use_hint (poly)
+                                                         rej_uniform (poly)
+                                                         rej_eta (poly)
+                                                         crypto_sign_signature (sign)
+                                                         decompose (rounding)
+                                                         polyw1_pack (poly)
+                                                         polyz_pack (poly)
+                                                         polyt1_unpack (poly)
+                                                         polyt1_pack (poly)
+                                                         pack_pk (packing)
+                                                         ntt (ntt)
+                                                         KeccakF1600_StatePermute (fips202)
+                                                         keccak_squeezeblocks (fips202)
+                                                         poly_decompose_a1 (poly)
+                                                         poly_chknorm (poly)
+                                                         dilithium_shake256_stream_init (symmetric-shake)
+                                                         reduce32 (reduce)
+                                                         polyvecl_chknorm (polyvec)
+                                                         polyeta_pack (poly)
+                                                         poly_challenge (poly)
+                                                         poly_uniform_eta (poly)
+                                                         unpack_sig_c_z (packing)
+                                                         poly_make_hint (poly)
+                                                         poly_uniform (poly)
+                                                         use_hint (rounding)
+                                                         power2round (rounding)
+                                                         polyt0_pack (poly)
+                                                         poly_sub (poly)
+                                                         poly_add (poly)
+                                                         keccak_absorb (fips202)
+                                                         keccak_inc_absorb (fips202)
+                                                         poly_pointwise_montgomery (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR7_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R7_is_cg_reg  0x000006B6  Pub  Ref by:   rej_uniform (poly)
+                                                         shake256 (fips202)
+                                                         shake256_inc_finalize (fips202)
+                                                         keccak_inc_squeeze (fips202)
+                                                         shake128_inc_finalize (fips202)
+                                                         rej_eta (poly)
+                                                         crypto_sign_verify (sign)
+                                                         poly_chknorm (poly)
+                                                         KeccakF1600_StatePermute (fips202)
+                                                         keccak_squeezeblocks (fips202)
+                                                         polyz_pack (poly)
+                                                         decompose (rounding)
+                                                         crypto_sign_signature (sign)
+                                                         poly_uniform (poly)
+                                                         unpack_sig_c_z (packing)
+                                                         polyeta_pack (poly)
+                                                         polyvecl_chknorm (polyvec)
+                                                         keccak_absorb (fips202)
+                                                         keccak_inc_absorb (fips202)
+                                                         polyt0_pack (poly)
+                                                         power2round (rounding)
+                                                         use_hint (rounding)
+  ============================================================
+  Module: ?REGISTER_CGREGR8_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R8_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                         crypto_sign_keypair (sign)
+                                                         polyt0_unpack (poly)
+                                                         invntt_tomont (ntt)
+                                                         shake256 (fips202)
+                                                         shake256_inc_finalize (fips202)
+                                                         keccak_inc_squeeze (fips202)
+                                                         shake128_inc_finalize (fips202)
+                                                         poly_power2round (poly)
+                                                         poly_decompose_a0 (poly)
+                                                         poly_use_hint (poly)
+                                                         rej_uniform (poly)
+                                                         rej_eta (poly)
+                                                         crypto_sign_signature (sign)
+                                                         polyz_pack (poly)
+                                                         polyt1_unpack (poly)
+                                                         ntt (ntt)
+                                                         KeccakF1600_StatePermute (fips202)
+                                                         keccak_squeezeblocks (fips202)
+                                                         poly_decompose_a1 (poly)
+                                                         polyeta_pack (poly)
+                                                         poly_challenge (poly)
+                                                         unpack_sig_c_z (packing)
+                                                         poly_make_hint (poly)
+                                                         poly_uniform (poly)
+                                                         polyt0_pack (poly)
+                                                         polyz_unpack (poly)
+                                                         poly_add (poly)
+                                                         keccak_absorb (fips202)
+                                                         keccak_inc_absorb (fips202)
+                                                         poly_sub (poly)
+                                                         poly_pointwise_montgomery (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR9_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R9_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                         crypto_sign_keypair (sign)
+                                                         polyt0_unpack (poly)
+                                                         invntt_tomont (ntt)
+                                                         shake256 (fips202)
+                                                         shake256_inc_finalize (fips202)
+                                                         keccak_inc_squeeze (fips202)
+                                                         shake128_inc_finalize (fips202)
+                                                         poly_power2round (poly)
+                                                         poly_decompose_a0 (poly)
+                                                         poly_use_hint (poly)
+                                                         rej_uniform (poly)
+                                                         rej_eta (poly)
+                                                         crypto_sign_signature (sign)
+                                                         decompose (rounding)
+                                                         polyz_pack (poly)
+                                                         polyt1_unpack (poly)
+                                                         ntt (ntt)
+                                                         KeccakF1600_StatePermute (fips202)
+                                                         keccak_squeezeblocks (fips202)
+                                                         poly_decompose_a1 (poly)
+                                                         polyeta_pack (poly)
+                                                         poly_challenge (poly)
+                                                         unpack_sig_c_z (packing)
+                                                         poly_make_hint (poly)
+                                                         poly_uniform (poly)
+                                                         polyt0_pack (poly)
+                                                         polyz_unpack (poly)
+                                                         poly_add (poly)
+                                                         keccak_absorb (fips202)
+                                                         keccak_inc_absorb (fips202)
+                                                         poly_sub (poly)
+                                                         poly_pointwise_montgomery (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR10_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R10_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                          crypto_sign_keypair (sign)
+                                                          polyt0_unpack (poly)
+                                                          invntt_tomont (ntt)
+                                                          shake256 (fips202)
+                                                          shake256_inc_finalize (fips202)
+                                                          keccak_inc_squeeze (fips202)
+                                                          shake128_inc_finalize (fips202)
+                                                          poly_power2round (poly)
+                                                          poly_use_hint (poly)
+                                                          rej_uniform (poly)
+                                                          rej_eta (poly)
+                                                          crypto_sign_signature (sign)
+                                                          decompose (rounding)
+                                                          polyz_pack (poly)
+                                                          ntt (ntt)
+                                                          KeccakF1600_StatePermute (fips202)
+                                                          keccak_squeezeblocks (fips202)
+                                                          polyt1_unpack (poly)
+                                                          unpack_sig_c_z (packing)
+                                                          poly_make_hint (poly)
+                                                          poly_uniform (poly)
+                                                          poly_challenge (poly)
+                                                          polyeta_pack (poly)
+                                                          polyt0_pack (poly)
+                                                          poly_pointwise_montgomery (poly)
+                                                          keccak_absorb (fips202)
+                                                          keccak_inc_absorb (fips202)
+                                                          polyz_unpack (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR11_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R11_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                          keccak_inc_squeeze (fips202)
+                                                          invntt_tomont (ntt)
+                                                          unpack_sig_c_z (packing)
+                                                          rej_eta (poly)
+                                                          poly_challenge (poly)
+                                                          polyeta_pack (poly)
+                                                          crypto_sign_signature (sign)
+                                                          decompose (rounding)
+                                                          ntt (ntt)
+                                                          keccak_inc_absorb (fips202)
+                                                          keccak_squeezeblocks (fips202)
+                                                          keccak_absorb (fips202)
+                                                          KeccakF1600_StatePermute (fips202)
+                                                          polyt0_pack (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR12_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R12_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                          poly_decompose_a0 (poly)
+                                                          poly_power2round (poly)
+                                                          invntt_tomont (ntt)
+                                                          keccak_inc_squeeze (fips202)
+                                                          poly_use_hint (poly)
+                                                          rej_uniform (poly)
+                                                          rej_eta (poly)
+                                                          crypto_sign_keypair (sign)
+                                                          poly_decompose_a1 (poly)
+                                                          KeccakF1600_StatePermute (fips202)
+                                                          keccak_squeezeblocks (fips202)
+                                                          ntt (ntt)
+                                                          polyz_pack (poly)
+                                                          crypto_sign_signature (sign)
+                                                          unpack_sig_c_z (packing)
+                                                          poly_make_hint (poly)
+                                                          poly_challenge (poly)
+                                                          poly_pointwise_montgomery (poly)
+                                                          keccak_absorb (fips202)
+                                                          keccak_inc_absorb (fips202)
+                                                          polyz_unpack (poly)
+                                                          polyt0_pack (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR13_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R13_is_cg_reg  0x000006B6  Pub  Ref by:   poly_decompose_a0 (poly)
+                                                          poly_power2round (poly)
+                                                          keccak_inc_squeeze (fips202)
+                                                          invntt_tomont (ntt)
+                                                          poly_use_hint (poly)
+                                                          rej_uniform (poly)
+                                                          rej_eta (poly)
+                                                          crypto_sign_keypair (sign)
+                                                          crypto_sign_verify (sign)
+                                                          poly_decompose_a1 (poly)
+                                                          KeccakF1600_StatePermute (fips202)
+                                                          keccak_squeezeblocks (fips202)
+                                                          ntt (ntt)
+                                                          polyz_pack (poly)
+                                                          crypto_sign_signature (sign)
+                                                          poly_make_hint (poly)
+                                                          unpack_sig_c_z (packing)
+                                                          poly_challenge (poly)
+                                                          poly_pointwise_montgomery (poly)
+                                                          keccak_inc_absorb (fips202)
+                                                          polyz_unpack (poly)
+                                                          polyt0_pack (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR14_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R14_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                          crypto_sign_keypair (sign)
+                                                          poly_challenge (poly)
+                                                          rej_eta (poly)
+                                                          keccak_inc_squeeze (fips202)
+                                                          invntt_tomont (ntt)
+                                                          unpack_sig_c_z (packing)
+                                                          poly_decompose_a0 (poly)
+                                                          poly_make_hint (poly)
+                                                          rej_uniform (poly)
+                                                          crypto_sign_signature (sign)
+                                                          polyz_pack (poly)
+                                                          polyt0_pack (poly)
+                                                          polyz_unpack (poly)
+                                                          ntt (ntt)
+                                                          keccak_inc_absorb (fips202)
+                                                          keccak_squeezeblocks (fips202)
+                                                          keccak_absorb (fips202)
+                                                          KeccakF1600_StatePermute (fips202)
+                                                          poly_decompose_a1 (poly)
+  ============================================================
+  Module: ?REGISTER_CGREGR15_L10
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x0 Align: 2(1)
+      ?Register_R15_is_cg_reg  0x000006B6  Pub  Ref by:   crypto_sign_verify (sign)
+                                                          keccak_inc_squeeze (fips202)
+                                                          invntt_tomont (ntt)
+                                                          rej_uniform (poly)
+                                                          rej_eta (poly)
+                                                          poly_challenge (poly)
+                                                          crypto_sign_signature (sign)
+                                                          ntt (ntt)
+                                                          keccak_inc_absorb (fips202)
+                                                          keccak_squeezeblocks (fips202)
+                                                          keccak_absorb (fips202)
+                                                          KeccakF1600_StatePermute (fips202)
+                                                          polyt0_pack (poly)
+                                                          polyz_pack (poly)
+  ============================================================
+  Module: ?LL_MUL_L12
+  ============================================================
+  Module: ?LONGLONG
+       Segment part 0, CODE
+       Address: CODE 0x000006B6 Size: 0x18 Align: 2(1)
+      ?LL_SHL_L12          0x000006B6  Pub  Ref by:   KeccakF1600_StatePermute (fips202)
+                                                      keccak_absorb (fips202)
+                                                      keccak_inc_absorb (fips202)
+                                                      shake128_inc_finalize (fips202)
+                                                      shake256_inc_finalize (fips202)
+                                                      poly_challenge (poly)
+    --------------------------------------------------
+       Segment part 1, CODE
+       Address: CODE 0x000006CE Size: 0x18 Align: 2(1)
+      ?ULL_SHR_L12         0x000006CE  Pub  Ref by:   power2round (rounding)
+                                                      keccak_inc_squeeze (fips202)
+                                                      keccak_squeezeblocks (fips202)
+                                                      KeccakF1600_StatePermute (fips202)
+    --------------------------------------------------
+       Segment part 3, CODE
+       Address: CODE 0x000006E6 Size: 0x22 Align: 2(1)
+      ?LL_ADD_L12          0x000006E6  Pub  Ref by:   keccak_inc_absorb (fips202)
+    --------------------------------------------------
+       Segment part 4, CODE
+       Address: CODE 0x00000708 Size: 0x22 Align: 2(1)
+      ?LL_AND_L12          0x00000708  Pub  Ref by:   KeccakF1600_StatePermute (fips202)
+    --------------------------------------------------
+       Segment part 5, CODE
+       Address: CODE 0x0000072A Size: 0x22 Align: 2(1)
+      ?LL_IOR_L12          0x0000072A  Pub  Ref by:   poly_challenge (poly)
+                                                      keccak_absorb (fips202)
+    --------------------------------------------------
+       Segment part 6, CODE
+       Address: CODE 0x0000074C Size: 0x22 Align: 2(1)
+      ?LL_XOR_L12          0x0000074C  Pub  Ref by:   shake256_inc_finalize (fips202)
+                                                      shake128_inc_finalize (fips202)
+                                                      keccak_inc_absorb (fips202)
+                                                      keccak_absorb (fips202)
+                                                      KeccakF1600_StatePermute (fips202)
+    --------------------------------------------------
+       Segment part 7, CODE
+       Address: CODE 0x0000076E Size: 0x22 Align: 2(1)
+      ?LL_SUB_L12          0x0000076E  Pub  Ref by:   keccak_inc_squeeze (fips202)
+    --------------------------------------------------
+       Segment part 11, CODE
+       Address: CODE 0x00000790 Size: 0x22 Align: 2(1)
+      ?LL_CMP_L12          0x00000790  Pub  Ref by:   keccak_inc_squeeze (fips202)
+                                                      keccak_inc_absorb (fips202)
+  ============================================================
+  Module: ?low_level_init
+       Segment part 3, FARCODE
+       Address: CODE 0x00009032 Size: 0x4 Align: 2(1)
+      __low_level_init     0x00009032  Pub  Ref by:   ?call_low_level_init (?C_STARTUP)
+  ============================================================
+  Module: ?memcpy
+  ============================================================
+  Module: ?segment_init
+       Segment part 3, FARCODE
+       Address: CODE 0x00009036 Size: 0x5A Align: 2(1)
+      __segment_init       0x00009036  Pub  Ref by:   ?need_segment_init (?C_STARTUP)
+    --------------------------------------------------
+       Segment part 4, FARCODE
+       Address: CODE 0x00009090 Size: 0xC Align: 2(1)
+       Ref by:   __segment_init
+  ============================================================
+  Module: ?xxmemxmemzero
+       Segment part 4, FARCODE
+       Address: CODE 0x0000909C Size: 0x18 Align: 2(1)
+      __far_memzero        0x0000909C  Pub  Ref by:   main (main)
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+SEGMENT  SPACE     START/END ADDRESS       SIZE  TYPE  ALIGN
+-------  -----   ---------------------     ----  ----  -----
+INTVEC   CODE   0x00000000 - 0x00000003     0x4   com   2(1)
+NEAR_F   CODE   0x00000004 - 0x00000403   0x400   rel   1(0)
+CODE     CODE   0x00000404 - 0x000007B1   0x3AE   rel   2(1)
+FARCODE  CODE   0x000007B2 - 0x000090B3  0x8902   rel   2(1)
+HUGE_F   CODE         0x000090B4                  dse   1(0)
+INITTAB  CODE   0x000090B4 - 0x000090C7    0x14   rel   1(0)
+TINY_ID  CODE         0x000090C8                  dse   1(0)
+NEAR_ID  CODE         0x000090C8                  dse   1(0)
+HUGE_ID  CODE   0x000090C8 - 0x00009187    0xC0   rel   1(0)
+RSTACK   DATA   0x00000060 - 0x0000025F   0x200   dse   1(0)
+CSTACK   DATA   0x00000260 - 0x0000825F  0x8000   dse   1(0)
+HUGE_I   DATA   0x00008260 - 0x0000831F    0xC0   rel   1(0)
+HUGE_Z   DATA   0x00008320 - 0x00008321     0x2   rel   1(0)
+
+ 37'256 bytes of CODE memory
+ 33'474 bytes of DATA memory
+
+Errors: none
+Warnings: none
